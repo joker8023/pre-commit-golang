@@ -93,3 +93,8 @@
   files: '\.go$'
   language: 'script'
   description: 'Runs `go test`, requires golang'
+- id: api-doc
+  name: 'api-doc'
+  entry: run-api-doc.sh
+  language: 'script'
+  description: 'Runs `apidoc`, requires apidoc'
